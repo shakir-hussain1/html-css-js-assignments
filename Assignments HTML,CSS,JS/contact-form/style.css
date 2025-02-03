@@ -1,0 +1,69 @@
+body {
+    font-family:'Times New Roman', Times, serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin:0;
+    background-color: lightseagreen;
+  }
+  
+  .contact-form {
+    width: 100%;
+    max-width: 800px;
+    padding: 5em;
+    background-color: skyblue;
+    border-radius: 10px;
+    box-shadow: 0 0 50px rgba(0, 0, 0, 0.5);
+  }
+
+  h2 {
+    margin-bottom: 1em;
+    font-size: 2.5em;
+    color: black;
+    text-align: center;
+  }
+
+  .form-group {
+    margin-bottom: 1em;
+    margin-top: 1em;
+  
+  }
+
+  label {
+    display:flex;
+    margin-bottom: 0.5em;
+    font-weight: bold;
+    color: black;
+    background-color: salmon;
+  }
+
+  input, textarea {
+    width: 100%;
+    padding: 0.8em;
+    border: 1px solid blue;
+    border-radius: 4px;
+    font-size: 1em;
+    background-color: lightcyan;
+  }
+
+  textarea {
+    resize: vertical;
+    min-height: 100px;
+  }
+
+  button {
+    width: 100%;
+    padding: 0.8em;
+    background-color: lightgray;
+    border: 1px solid blue;
+    border-radius: 4px;
+    font-size: 1em;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    display: flex;
+    text-justify: auto;
+  }
+
+  button:hover {
+    background-color: lightyellow;
+  }

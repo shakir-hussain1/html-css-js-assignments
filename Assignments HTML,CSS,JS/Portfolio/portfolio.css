@@ -1,0 +1,16 @@
+body{
+    border: 5px double black;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0 50px 0 50px; 
+    padding: 0 50px 0 50px;
+    font-size: larger;  
+    font-weight: bolder;
+    text-indent: 30px; 
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    color: black;
+}
+body h1, h2, p{
+    color: maroon;
+}

@@ -1,0 +1,57 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: bisque;
+}
+/* Header styling */
+header {
+    background-color: slateblue;
+    color: black;
+    padding: 20px;
+    text-align: center;
+}
+/* Navigation bar styling */
+nav {
+    display: flex;
+    justify-content: center;
+    background-color: skyblue;
+}
+nav a {
+    color: black;
+    padding: 14px 20px;
+    text-decoration: none;
+    text-align: center;
+}
+nav a:hover {
+    background-color: red;
+    color: black;
+}
+/* Main content styling */
+main {
+    padding: 20px;
+}
+section {
+    margin-bottom: 20px;
+}
+/* Footer styling */
+footer {
+    background-color: lightgreen;
+    color: black;
+    text-align: center;
+    padding: 10px 0;
+    position:static;
+    bottom: 0;
+    width: 100%;
+}
+/* Responsive images */
+img {
+    max-width: 100px;
+    height: 100px;
+}
+#about{
+    display:flex;
+}
+#project{
+    display: flex;
+}

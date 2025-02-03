@@ -1,0 +1,47 @@
+<!-- This is a simple form using HTML, created by Shakir Hussain -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+
+<body>
+    <h1 align="center">Forms</h1>
+    <form action="" method="post">
+        <fieldset>
+            <legend>Your Details:</legend>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name"><br><br>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email">
+        </fieldset>
+        <br>
+        <fieldset>
+            <legend>Your Review:</legend>
+            <label for="option">How did you hear about us?</label>
+            <select name="option" id="option">
+                <option value="google">Google</option>
+                <option value="facebook">Facebook</option>
+                <option value="youtube">Youtube</option>
+                <option value="other">Other</option>
+            </select>
+            <br><br>
+            <label for="radio">Would you visit again?</label>
+            <input type="radio" id="radio" name="radio">Yes</input>
+            <input type="radio" id="radio" name="radio">No</input>
+            <input type="radio" id="radio" name="radio">Maybe</input>
+            <br><br>
+            <p>Comments:</p>
+            <textarea name="comments" id="comments" cols="50" rows="5"></textarea><br><br>
+            <input type="checkbox" name="checkbox" id="checkbox">
+            <label for="checkbox">Sign me up for email updates</label>
+            <br>
+            <button>Submit Review</button>
+        </fieldset>
+    </form>
+</body>
+
+</html>
